@@ -1,0 +1,22 @@
+{
+  "name": "hector68/importer",
+  "description": "library to import/export data",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dmitriy Ronzhin",
+      "email": "hector.tmb@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "simplon/mysql": "*"
+  },
+  "require-dev" : {
+  },
+  "autoload": {
+    "psr-4": {
+      "Hector68\\Importer\\": "src/"
+    }
+  }
+}
